@@ -1,0 +1,51 @@
+.navbar-wrapper {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.list-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #3535f3;
+  width: 410px;
+  color: white;
+  height: 100%;
+}
+
+.list-wrapper > div {
+  height: 100%;
+}
+
+.logo-wrapper {
+  background-color: #0a2885;
+  width: 410px;
+  color: white;
+}
+
+.logo-wrapper > ul > li {
+  display: flex;
+  padding: 20px 50px;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.list {
+  padding-left: 54px;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.list-title {
+  margin-left: 20px;
+}
